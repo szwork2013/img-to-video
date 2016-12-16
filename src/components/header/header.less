@@ -1,0 +1,39 @@
+.title {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96px;
+    background: #fff100;
+    border-bottom: 1px solid #ded31a;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    > h1 {
+        margin: 0;
+        position: absolute;
+        line-height: 96px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 28px;
+        color: #000000;
+    }
+    > .leftWrap {
+        display: flex;
+        align-items: center;
+        padding: 0 28px;
+        img{
+            width: 38px;
+            height: 38px;
+        }
+    }
+    > .rightWrap {
+        display: flex;
+        align-items: center;
+        padding-right: 28px;
+        font-size: 28px;
+        color: #000;
+    }
+}

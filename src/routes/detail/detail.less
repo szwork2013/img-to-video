@@ -1,0 +1,57 @@
+.wrap {
+    padding-top: 97px;
+    .videoWrap {
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%;
+        background: #000;
+        video {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .videoAuthor {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        height: 85px;
+        padding: 34px 0;
+        > div:first-of-type {
+            display: flex;
+            height: 85px;
+            img {
+                width: 85px;
+                height: 85px;
+                border-radius: 100%;
+                margin-left: 35px;
+                margin-right: 24px;
+            }
+            span {
+                line-height: 85px;
+            }
+        }
+        > div:last-of-type {
+            line-height: 85px;
+            padding:0 30px;
+        }
+    }
+    .videoInfo {
+        padding: 0 35px;
+        >p:first-of-type {
+            font-size: 32px;
+            color: #434343;
+        }
+        >p:last-of-type{
+            margin-top: 20px;
+            color: #c9c9c9;
+            font-size: 22px;
+
+            >span:first-of-type {
+                margin-right: 15px;
+            }
+        }
+    }
+}

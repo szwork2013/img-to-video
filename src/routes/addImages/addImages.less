@@ -1,0 +1,89 @@
+.titleNum {
+    display: inline-block;
+    text-align: center;
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+    margin-right: 16px;
+    background: #e5004f;
+    color: #fff;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.titleNext {
+    font-size: 28px;
+    color: #000;
+}
+
+.main {
+    padding-top: 98px;
+    ul {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            display: block;
+            box-sizing: border-box;
+            width: 50%;
+            padding-top: 30%;
+            position: relative;
+            > div {
+                position: absolute;
+                left: 10px;
+                top: 10px;
+                right: 10px;
+                bottom: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                background-position: center;
+                background-size: cover;
+                .num {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 40px;
+                    height: 40px;
+                    background: rgba(0, 0, 0, .6);
+                    text-align: center;
+                    line-height: 40px;
+                    color: #fff;
+                    font-size: 28px;
+                }
+                .del {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    width: 40px;
+                    height: 40px;
+                    background: rgba(255, 72, 0, .6);
+                    text-align: center;
+                    line-height: 40px;
+                    color: #fff;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+.addBtn {
+    border: 2px dashed #959595;
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            display: block;
+            width: 34px;
+            height: 34px;
+            margin-right: 12px;
+        }
+        span {
+            font-size: 26px;
+            color: #959595;
+        }
+    }
+}

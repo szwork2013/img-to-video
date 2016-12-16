@@ -1,0 +1,21 @@
+.loadingBottom{
+    display: flex;
+    height: 120px;
+    margin-bottom: -40px;
+    justify-content: center;
+    align-items: center;
+    img{
+        display: block;
+        width: 60px;
+        height: 60px;
+        animation: loading .6s linear infinite;
+    }
+}
+@keyframes  loading{
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0);
+    }
+}

@@ -1,0 +1,57 @@
+audio {
+    display: none;
+}
+
+.list {
+    display: flex;
+    width: 100%;
+    height: 112px;
+    .icomPlay {
+        position: relative;
+        height: 112px;
+        width: 112px;
+        flex: none;
+        .cover{
+            display: block;
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+        .on{
+            animation: playRotate 10s linear infinite;
+            .cover
+        }
+        img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+    }
+    .musicMain {
+        flex: 1;
+        box-sizing: border-box;
+        display: flex;
+        padding: 0 30px;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 29px;
+        color: #434343;
+        border-bottom: 2px solid #eeeeee;
+    }
+    .color {
+        color: #e5004f
+    }
+}
+
+@keyframes playRotate {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}

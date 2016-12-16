@@ -1,0 +1,172 @@
+.main {
+    padding-top: 98px;
+    .topWrap {
+        padding: 40px 30px 36px;
+        .topCover {
+            position: relative;
+            width: 100%;
+            padding-top: 48%;
+            background: #ccc no-repeat center/cover;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            input {
+                position: absolute;
+                display: block;
+                width: 100%;
+                line-height: 60px;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 44px;
+                text-align: center;
+                border-radius: 0;
+                background: transparent;
+                color: #fff;
+            }
+        }
+        .itemTitle {
+            display: flex;
+            height: 90px;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            background: #eee;
+            font-size: 26px;
+            color: #1b1b1b;
+        }
+        .itemMusic {
+            display: flex;
+            margin-top: 36px;
+            height: 90px;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 8px;
+            background: #eee;
+            font-size: 26px;
+            color: #1b1b1b;
+            .musicName {
+                display: flex;
+                align-items: center;
+                span {
+                    font-size: 24px;
+                    color: #7d7d7d;
+                    word-break:break-all;
+                }
+            }
+        }
+    }
+    .iconText {
+        display: flex;
+        width: 200px;
+        flex: none;
+        align-items: center;
+        color: #1b1b1b;
+        .icon {
+            display: block;
+            width: 38px;
+            margin: 0 20px 0 24px;
+        }
+    }
+    .arrow {
+        opacity: .6;
+        height: 26px;
+        margin-right: 32px;
+        margin-left: 12px;
+    }
+    .list {
+        background: #eee;
+        padding: 12px 30px 60px;
+
+        .itemDanmu {
+            display: flex;
+            height: 90px;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            background: #eee;
+            font-size: 26px;
+            color: #1b1b1b;
+            margin-bottom: 12px;
+            > a {
+                display: block;
+                line-height: 40px;
+                font-size: 24px;
+                color: #1b1b1b;
+                padding: 0 20px;
+                background: #fff100;
+                border: 1px solid #ffea1c;
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+.editWrap {
+    li {
+        display: flex;
+        width: 100%;
+        background: #fff;
+        border-radius: 4px;
+        padding: 30px 0 30px 30px;
+        box-sizing: border-box;
+        margin-bottom: 16px;
+        .imgWrap {
+            position: relative;
+            width: 224px;
+            height: 128px;
+            flex: none;
+            background: #ccc no-repeat center/cover;
+            margin-right: 30px;
+            span {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 26px;
+                height: 26px;
+                text-align: center;
+                line-height: 26px;
+                color: #fff;
+                font-size: 18px;
+                background: rgba(0, 0, 0, .7);
+            }
+        }
+        .inputWrap {
+            flex: 1;
+            textarea {
+                display: block;
+                width: 100%;
+                height: 128px;
+                color: #b5b5b5;
+                font-size: 26px;
+            }
+        }
+        .rightWrap {
+            flex: none;
+            width: 60px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            span {
+                flex: 1;
+                display: flex;
+                position: relative;
+                justify-content: center;
+                align-items: center;
+                img {
+                    display: block;
+                    opacity: .7;
+                    width: 20px;
+                    height: 10px;
+                }
+            }
+            .up {
+                top: -30px;
+            }
+            .down {
+                bottom: -30px;
+            }
+        }
+    }
+}
